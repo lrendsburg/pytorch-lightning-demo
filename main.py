@@ -19,16 +19,16 @@ if __name__ == "__main__":
     # Hyperparameters
     params = {
         # Architecture
-        "num_layers": 1,
-        "layer_width": 50,
+        "num_layers": 2,
+        "layer_width": 20,
         # Data module
         "num_train": 300,
         "num_val": 50,
         "batch_size": 64,
         # Training
         "optimizer": "Adam",
-        "learning_rate": 5e-2,
-        "max_epochs": 300,
+        "learning_rate": 1e-3,
+        "max_epochs": 600,
     }
 
     # Setup
